@@ -1,0 +1,52 @@
+@use "./root-function" as *
+
+@mixin shadow($x: 0, $y: 0, $blur: 0.6rem, $spread: 0, $color: #000, $percentage: 0.75)
+  box-shadow: $x $y $blur $spread semi-transparent($color, $percentage)
+  -webkit-box-shadow: $x $y $blur $spread semi-transparent($color, $percentage)
+  -moz-box-shadow: $x $y $blur $spread semi-transparent($color, $percentage)
+
+@mixin rm-def-btn-styles
+  border: none
+  outline: none
+  background: none
+
+@mixin rm-def-input-styles
+  border: none
+  outline: none
+  background: none
+
+@mixin padx($pad: 1rem)
+  padding: 0px $pad 0px $pad
+
+@mixin pady($pad: 1rem)
+  padding: $pad 0px $pad 0px
+
+@mixin flex-center($direction: row)
+  display: flex
+  align-items: center
+  flex-direction: $direction
+
+@mixin flex-just-center($direction: row)
+  justify-content: center
+  @include flex-center($direction)
+
+@mixin flex-just-right($direction: row)
+  justify-content: right
+  @include flex-center($direction)
+
+@mixin flex-just-space-around($direction: row)
+  justify-content: space-around
+  @include flex-center($direction)
+
+@mixin flex-just-space-between($direction: row)
+  justify-content: space-between
+  @include flex-center($direction)
+
+@mixin bg-img-center($size: cover)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: $size
+
+@mixin for-big-screen
+  @media (min-width: 1005px)
+    @content

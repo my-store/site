@@ -1,0 +1,37 @@
+@use "./root-vars" as *
+
+@font-face
+    font-family: "Outfit-VariableFont"
+    src: url("#{$font-path}outfit/Outfit-VariableFont_wght.ttf") format("truetype")
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: Outfit-VariableFont
+    letter-spacing: 0.02rem
+
+// HTML Configurations
+:root
+    overflow: hidden
+    font-synthesis: none
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -webkit-text-size-adjust: 100%
+
+/* Scrollbar width */
+::-webkit-scrollbar
+    width: $scrollbar-width
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track
+    background: #f1f1f1
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb
+    background: $primary-color
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover
+    background: $secondary-color

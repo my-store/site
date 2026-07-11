@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.c9074142.css",
-    "main.js": "/site/static/js/main.06c9c25d.js",
-    "static/js/453.a6a6e5f0.chunk.js": "/site/static/js/453.a6a6e5f0.chunk.js",
-    "static/media/Outfit-VariableFont_wght.ttf": "/site/static/media/Outfit-VariableFont_wght.bd9b98b120b5f2eb7266.ttf",
-    "index.html": "/site/index.html",
-    "main.c9074142.css.map": "/site/static/css/main.c9074142.css.map",
-    "main.06c9c25d.js.map": "/site/static/js/main.06c9c25d.js.map",
-    "453.a6a6e5f0.chunk.js.map": "/site/static/js/453.a6a6e5f0.chunk.js.map"
+    "main.css": "/site/blob/gh-pages/static/css/main.fa062373.css",
+    "main.js": "/site/blob/gh-pages/static/js/main.3ce17078.js",
+    "static/js/453.a6a6e5f0.chunk.js": "/site/blob/gh-pages/static/js/453.a6a6e5f0.chunk.js",
+    "static/media/Outfit-VariableFont_wght.ttf": "/site/blob/gh-pages/static/media/Outfit-VariableFont_wght.bd9b98b120b5f2eb7266.ttf",
+    "index.html": "/site/blob/gh-pages/index.html",
+    "main.fa062373.css.map": "/site/blob/gh-pages/static/css/main.fa062373.css.map",
+    "main.3ce17078.js.map": "/site/blob/gh-pages/static/js/main.3ce17078.js.map",
+    "453.a6a6e5f0.chunk.js.map": "/site/blob/gh-pages/static/js/453.a6a6e5f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9074142.css",
-    "static/js/main.06c9c25d.js"
+    "static/css/main.fa062373.css",
+    "static/js/main.3ce17078.js"
   ]
 }

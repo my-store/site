@@ -1,0 +1,19 @@
+@use "../root-mixin" as *
+
+@include for-small-screen
+    header
+        flex-direction: column
+
+        // Replace PC Configurations
+        padding: 0.4rem 0 0.4rem 0
+
+        h1
+            font-size: 1rem
+            line-height: 1.2rem
+
+            // Remove PC Styles
+            margin-right: 0
+
+        p
+            font-size: 0.8rem
+            line-height: 0.8rem

@@ -1,0 +1,32 @@
+@use "../root-mixin" as *
+
+@include for-small-screen
+    body
+        #App
+            main
+                section
+                    width: 90vw
+
+                    .title
+                        font-size: 1.2rem
+
+                    .info
+                        margin-top: 0.5rem
+                        font-size: 1rem
+                        line-height: 1.2rem
+
+                    #aktivitas-container
+                        div
+                            width: 100vh
+                            height: 50vw
+
+                    #whatsapp-btn
+                        &:active
+                            background-color: #128C7E
+                        p
+                            margin-left: 0.5rem
+                            font-size: 1rem
+
+            footer
+                p
+                    font-size: 0.8rem

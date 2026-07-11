@@ -24,7 +24,7 @@ function App() {
       </header>
 
       <div id="banner">
-        <div id="desk-1" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/desk-1.jpg)` }}></div>
+        <div id="desk-1" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/desk-1.jpg)` }}></div>
       </div>
 
       <main>

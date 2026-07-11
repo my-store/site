@@ -24,7 +24,7 @@ function App() {
       </header>
 
       <div id="banner">
-        <div id="desk-1" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/desk-1.jpg)` }}></div>
+        <div id="desk-1" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/desk-1.jpg)` }}></div>
       </div>
 
       <main>
@@ -41,14 +41,14 @@ function App() {
         <section id="contact">
           <h1 className='title'>Aktivitas Kami</h1>
           <div id="aktivitas-container">
-            <div id="aktivitas-1" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/mainboard-asus-x455l.jpg)` }}></div>
-            <div id="aktivitas-2" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/mainboard-oppo-a5i.jpg)` }}></div>
-            <div id="aktivitas-3" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/mainboard-asus-x455l-2.jpg)` }}></div>
-            <div id="aktivitas-4" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/mainboard-dell.jpg)` }}></div>
-            <div id="aktivitas-5" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/laptop-hp.jpg)` }}></div>
-            <div id="aktivitas-6" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/hp-infinix.jpg)` }}></div>
-            <div id="aktivitas-7" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/hp-samsung.jpg)` }}></div>
-            <div id="aktivitas-8" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/pmtkom/laptop-sony-vaio.jpg)` }}></div>
+            <div id="aktivitas-1" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/mainboard-asus-x455l.jpg)` }}></div>
+            <div id="aktivitas-2" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/mainboard-oppo-a5i.jpg)` }}></div>
+            <div id="aktivitas-3" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/mainboard-asus-x455l-2.jpg)` }}></div>
+            <div id="aktivitas-4" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/mainboard-dell.jpg)` }}></div>
+            <div id="aktivitas-5" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/laptop-hp.jpg)` }}></div>
+            <div id="aktivitas-6" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/hp-infinix.jpg)` }}></div>
+            <div id="aktivitas-7" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/hp-samsung.jpg)` }}></div>
+            <div id="aktivitas-8" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/blob/gh-pages/pmtkom/laptop-sony-vaio.jpg)` }}></div>
           </div>
         </section>
         <section id="about">

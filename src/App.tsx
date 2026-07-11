@@ -33,7 +33,6 @@ function App() {
           <p className="info">
             Kami menyediakan layanan perbaikan dan pemeliharaan motherboard komputer personal, laptop dan smartphone (android & iPhone).
           </p>
-          <p className="info">Berbekal pengalaman lebih dari 10 tahun, kami siap membantu Anda mengatasi masalah teknis dengan cepat dan efisien.</p>
           <p className="info">
             Kami berlokasi di dusun Cikandang, desa Bentarsari, kec. Salem, kab. Brebes, Jawa Tengah.
           </p>
